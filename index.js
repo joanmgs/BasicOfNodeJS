@@ -1,4 +1,5 @@
 const http = require('http');
+const colors = require('colors');
 
 //Server function
 const handleServer = (req, res) => {
@@ -12,5 +13,5 @@ const server = http.createServer(handleServer);
 
 //lifting server in port 3030
 server.listen(3030, () => {
-    console.log('Working and running on 3030!');
+    console.log('Working and running on 3030!'.green);
 });
