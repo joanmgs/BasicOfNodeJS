@@ -1,0 +1,28 @@
+{
+  "name": "basicsofnode",
+  "version": "1.0.0",
+  "description": "creating a server with nodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-express": "node express.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joanmgs/BasicOfNodeJS.git"
+  },
+  "keywords": [
+    "nodejs",
+    "first",
+    "server"
+  ],
+  "author": "joanmgs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joanmgs/BasicOfNodeJS/issues"
+  },
+  "homepage": "https://github.com/joanmgs/BasicOfNodeJS#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
